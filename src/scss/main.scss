@@ -1,0 +1,50 @@
+body {
+    background: white;
+    margin:0;
+}
+.container {
+    width: 290px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+@import'utils/variabiletis', 'utils/placholder', 'utils/mixins';
+@import'components/header-console', 'components/search', 'components/categories', 'components/jobs', 'components/subscribe', 'components/footer';
+.main-title {
+    color: #111238;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media (min-width: 576px) {
+    .container {
+        width: 480px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 576x;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
